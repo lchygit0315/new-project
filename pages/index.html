@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>东鹏特饮</title>
+    <link rel="stylesheet" href="../css/footer.css">
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/index.css">
+    <link rel="stylesheet" href="../css/swiper-3.3.1.min.css">
+</head>
+<body>
+<div class="page-home-header">
+   <div class="page-home-search">
+       <div class="sou"><img src="../images/sou.png"></div>
+       <div class="page-home-input"><input type="text" name=""/></div>
+   </div>
+</div>
+
+<div class="page-content">
+    <!-- 班栏图 -->
+    <div class="page-home-banner">
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <img src="../images/banner_1.jpg">
+                </div>
+                <div class="swiper-slide">
+                    <img src="../images/banner_2.jpg">
+                </div>
+                <div class="swiper-slide">
+                    <img src="../images/banner_3.jpg">
+                </div>
+            </div>
+            <!-- 如果需要分页器 -->
+            <div class="swiper-pagination"></div>
+        </div>
+    </div>
+
+    <!-- 中间导航 -->
+    <div class="page-home-menu">
+        <ul class="barList clearfix">
+            <li>
+                <a href="javascript:;">
+                    <img class="icon" src="../images/2.png">
+                    <p class="text">拼奖记录</p>
+                </a>
+            </li>
+            <li>
+                <a>
+                    <img class="icon" src="../images/3.png">
+                    <p class="text">红包记录</p>
+                </a>
+
+            </li>
+            <li>
+                <a>
+                    <img class="icon" src="../images/4.png">
+                    <p class="text">红包记录</p>
+                </a>
+            </li>
+
+            <li>
+                <a>
+                    <img class="icon" src="../images/5.png">
+                    <p class="text">红包记录</p>
+                </a>
+            </li>
+
+            <li>
+                <a>
+                    <img class="icon" src="../images/6.png">
+                    <p class="text">红包记录</p>
+                </a>
+            </li>
+            <li>
+                <a>
+                    <img class="icon" src="../images/7.png">
+                    <p class="text">红包记录</p>
+                </a>
+            </li>
+
+        </ul>
+    </div>
+
+    <!-- 附近门店 -->
+    <div class="page-home-near">
+        <div class="page-near-text"><span></span>附近门店<span></span></div>
+        <div class="page-near-container">
+            <ul id="dried-list">
+                <li>
+                    <a href="javascript:;">
+                        <div class="dried-bottom-left">
+                            <img src="../images/tx.png">
+                        </div>
+                        <div class="dried-bottom-right">
+                            <div class="dried-bottom-text">宜家小卖部</div>
+                            <p>深圳市南山区西丽街道珠光北路23号</p>
+                            <span>距离：400米</span>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="javascript:;">
+                        <div class="dried-bottom-left">
+                            <img src="../images/tx.png">
+                        </div>
+                        <div class="dried-bottom-right">
+                            <div class="dried-bottom-text">宜家小卖部</div>
+                            <p>深圳市南山区西丽街道珠光北路23号</p>
+                            <span>距离：400米</span>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="javascript:;">
+                        <div class="dried-bottom-left">
+                            <img src="../images/tx.png">
+                        </div>
+                        <div class="dried-bottom-right">
+                            <div class="dried-bottom-text">宜家小卖部</div>
+                            <p>深圳市南山区西丽街道珠光北路23号</p>
+                            <span>距离：400米</span>
+                        </div>
+                    </a>
+                </li>
+
+            </ul>
+        </div>
+
+    </div>
+
+
+</div>
+
+<ul class="foot">
+    <li class="Imgbox" img="../images/14_1.png" data-img="../images/14_2.png">
+        <a href="index.html">
+            <img src="../images/14_2.png" />
+            <p class="actives">首页</p>
+        </a>
+    </li>
+    <li class="Imgbox" img="../images/15_1.png" data-img="../images/15_2.png">
+        <a href="cart.html">
+            <img src="../images/15_1.png" />
+            <p>购物</p>
+        </a>
+    </li>
+    <li class="Imgbox" img="../images/16_1.png" data-img="../images/16_2.png">
+        <a href="personal.html">
+            <img src="../images/16_1.png" />
+            <p>我的</p>
+        </a>
+    </li>
+</ul>
+</body>
+<script src="../script/jquery-3.2.1.js"></script>
+<script src="../script/common.js"></script>
+<script src="../script/reset.js"></script>
+<script src="../script/swiper/swiper-3.3.1.jquery.min.js"></script>
+<script>
+    var mySwiper = new Swiper ('.swiper-container', {
+        autoplay: 3000,
+        direction: 'horizontal',
+        loop: true,
+        // 如果需要分页器
+        pagination: '.swiper-pagination'
+
+
+    })
+</script>
+</html>

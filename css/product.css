@@ -1,0 +1,87 @@
+.page-product-top {
+  width: 96%;
+  height: 3rem;
+  margin-left: 2%;
+}
+.page-product-top .page-left-direction {
+  width: 2rem;
+  height: 2rem;
+  float: left;
+  margin-top: 0.5rem;
+}
+.page-product-top .page-left-direction img {
+  width: 100%;
+  height: 100%;
+}
+.page-product-top .page-product-loction {
+  margin-top: 0.5rem;
+  margin-left: 20%;
+  line-height: 2rem;
+  float: left;
+  display: flex;
+  display: -webkit-flex;
+}
+.page-product-top .page-product-loction .page-loction {
+  width: 1.6rem;
+  height: 1.6rem;
+  margin-top: 0.3rem;
+  float: left;
+}
+.page-product-top .page-product-loction .page-loction img {
+  width: 100%;
+  height: 100%;
+}
+.page-product-top .page-product-loction .page-loction-text {
+  text-align: center;
+  font-size: 18px;
+  color: #686868;
+  float: left;
+}
+.page-product-top .page-product-loction .page-right-direction {
+  width: 1.6rem;
+  height: 1.6rem;
+  margin-top: 0.2rem;
+  float: left;
+}
+.page-product-top .page-product-loction .page-right-direction img {
+  width: 100%;
+  height: 100%;
+}
+.page-home-header {
+  width: 100%;
+}
+.page-home-header .page-home-search {
+  width: 96%;
+  height: 3rem;
+  background: #F4F4F4;
+  border-radius: 2rem;
+  margin: 0.5rem 2%;
+  position: relative;
+}
+.page-home-header .page-home-search .sou {
+  width: 15%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  box-sizing: border-box;
+  padding-left: 3%;
+}
+.page-home-header .page-home-search .sou img {
+  width: 1.8rem;
+  height: 1.8rem;
+  margin: 0.5rem 0;
+}
+.page-home-header .page-home-search .page-home-input {
+  position: absolute;
+  left: 15%;
+  top: 0;
+  width: 85%;
+  border-radius: 0 2rem 2rem 0;
+}
+.page-home-header .page-home-search .page-home-input input {
+  border: none;
+  border-radius: 2rem;
+  height: 2.8rem;
+  background: #F4F4F4 ;
+}

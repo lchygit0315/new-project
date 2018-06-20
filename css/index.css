@@ -1,0 +1,171 @@
+.page-home-header {
+  width: 100%;
+}
+.page-home-header .page-home-search {
+  width: 90%;
+  height: 3rem;
+  background: #F4F4F4;
+  border-radius: 2rem;
+  margin: 0.5rem 5%;
+  position: relative;
+}
+.page-home-header .page-home-search .sou {
+  width: 15%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  box-sizing: border-box;
+  padding-left: 3%;
+}
+.page-home-header .page-home-search .sou img {
+  width: 1.8rem;
+  height: 1.8rem;
+  margin: 0.5rem 0;
+}
+.page-home-header .page-home-search .page-home-input {
+  position: absolute;
+  left: 15%;
+  top: 0;
+  width: 85%;
+  border-radius: 0 2rem 2rem 0;
+}
+.page-home-header .page-home-search .page-home-input input {
+  border: none;
+  border-radius: 2rem;
+  height: 2.8rem;
+  background: #F4F4F4 ;
+}
+.page-content {
+  position: absolute;
+  top: 4rem;
+  bottom: 5rem;
+  left: 0;
+  right: 0;
+  overflow: scroll;
+  z-index: 2;
+}
+.page-home-banner {
+  width: 100%;
+  height: 11rem;
+}
+.page-home-banner .swiper-container {
+  width: 100%;
+  height: 100%;
+}
+.page-home-banner .swiper-container .swiper-slide {
+  width: 100%;
+  height: 100%;
+}
+.page-home-banner .swiper-container img {
+  width: 100%;
+  height: 100%;
+}
+.page-home-menu {
+  width: 100%;
+}
+.page-home-menu .barList {
+  background: #fff;
+  border-bottom: 0.5rem solid #eee;
+}
+.page-home-menu .barList li {
+  width: 33.33%;
+  padding: 1rem 0;
+  float: left;
+}
+.page-home-menu .barList li a {
+  display: block;
+}
+.page-home-menu .barList li .icon {
+  display: block;
+  width: 50%;
+  margin: 0 auto;
+}
+.page-home-menu .barList li .text {
+  font-size: 12px;
+  color: #333;
+  text-align: center;
+}
+.page-home-near {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 0 1rem;
+}
+.page-home-near .page-near-text {
+  width: 100%;
+  text-align: center;
+  font-size: 14px;
+  padding: 1rem 0;
+  border-bottom: 0.1rem solid #eee;
+}
+.page-home-near .page-near-text span {
+  display: inline-block;
+  width: 2rem;
+  height: 0.1rem;
+  background: #eee;
+  margin-bottom: 0.4rem;
+}
+.page-home-near .page-near-text span:first-child {
+  margin-right: 1rem;
+}
+.page-home-near .page-near-text span:last-child {
+  margin-left: 1rem;
+}
+.page-home-near .page-near-container {
+  width: 100%;
+  margin-top: 1rem;
+}
+.page-home-near .page-near-container #dried-list {
+  width: 100%;
+}
+.page-home-near .page-near-container #dried-list li {
+  width: 100%;
+  height: 9rem;
+  padding: 0.5rem 0;
+}
+.page-home-near .page-near-container #dried-list li a {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  display: -webkit-flex;
+  flex-flow: row nowrap;
+  align-content: center;
+  justify-content: flex-start;
+  box-sizing: border-box;
+}
+.page-home-near .page-near-container #dried-list li a .dried-bottom-left {
+  width: 8rem;
+  height: 8rem;
+  vertical-align: middle;
+  display: table-cell;
+  text-align: center;
+}
+.page-home-near .page-near-container #dried-list li a .dried-bottom-left img {
+  width: 100%;
+  height: 100%;
+}
+.page-home-near .page-near-container #dried-list li a .dried-bottom-right {
+  width: 75%;
+  margin-left: 1rem;
+  border-bottom: 0.1rem solid #eee;
+  position: relative;
+  font-size: 12px;
+}
+.page-home-near .page-near-container #dried-list li a .dried-bottom-right .dried-bottom-text {
+  font-size: 16px;
+  font-weight: 600;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.page-home-near .page-near-container #dried-list li a .dried-bottom-right p {
+  font-size: 14px;
+  margin-top: 0.5rem;
+}
+.page-home-near .page-near-container #dried-list li a .dried-bottom-right span {
+  color: #F56145;
+  display: block;
+  position: absolute;
+  right: 0;
+  bottom: 1rem;
+}
