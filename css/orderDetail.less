@@ -1,0 +1,154 @@
+.wrap {
+  width: 100%;
+  height: 100%;
+}
+
+.page-order-top {
+  width: 100%;
+  height: 15rem;
+  position: relative;
+  .page-order-bg {
+    width: 100%;
+    height: 100%;
+    img {
+      width: 100%;
+      height: 100%;
+      -webkit-filter: blur(0.5rem);
+      filter: blur(0.5rem);
+    }
+  }
+  .page-order-white {
+    width: 100%;
+    height: 100%;
+    background: rgba(90, 78, 27, 0.8);
+    position: absolute;
+    top: 0;
+    left: 0
+  }
+  .page-top-left {
+    width: 30%;
+    position: absolute;
+    left: 1rem;
+    top: 2.5rem;
+    .page-top-left-img {
+      width: 10rem;
+      height: 10rem;
+      img {
+        width: 100%;
+        height: 100%;
+      }
+    }
+  }
+  .page-top-right {
+    width: 70%;
+    position: absolute;
+    left: 40%;
+    top: 2rem;
+    p {
+      font-size: 16px;
+      color: white;
+    }
+  }
+}
+
+.page-order-content {
+  position: absolute;
+  top: 15rem;
+  bottom: 5rem;
+  left: 0;
+  right: 0;
+}
+
+.page-order-tab {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  .page-order-menu {
+    width: 100%;
+    border-bottom: 0.1rem solid #ccc;
+    position: relative;
+    ul {
+      width: 100%;
+      box-sizing: border-box;
+      display: flex;
+      display: -webkit-flex;
+      li {
+        width: 50%;
+        box-sizing: border-box;
+        flex: 1;
+        height: 3rem;
+        line-height: 3rem;
+        color: #9C9C9C;
+        font-size: 16px;
+        text-align: center;
+      }
+      li.active {
+        color: #444;
+        font-weight: 600;
+      }
+      .order-line {
+        width: 20%;
+        height: 0.1rem;
+        background: #FFC132;
+        position: absolute;
+        bottom: 0;
+        left: 16%;
+      }
+    }
+  }
+  .page-order-box{
+    position: absolute;
+    top:3rem;
+    left:0;
+    right:0;
+    bottom:0;
+    .page-order-choose{
+      width: 100%;
+      height: 100%;
+      .page-choose-left{
+        width: 25%;
+        position: absolute;
+        left: 0;
+        top:0;
+        bottom:0;
+        overflow: scroll;
+        border-right: 0.1rem dashed #eee;
+        color: #444;
+        font-size: 14px;
+        .page-choose-title{
+          width: 100%;
+          box-sizing: border-box;
+          padding: 0 0.3rem;
+          padding-top: 1.5rem;
+          text-align: center;
+          line-height: 1.6rem;
+        }
+        ul{
+          width: 100%;
+          height: 100%;
+          li{
+            width: 100%;
+            margin: 3rem 0;
+            padding: 0 1rem;
+            box-sizing: border-box;
+            max-height: 4rem;
+            line-height: 1.6rem;
+            text-align: center;
+            display: -webkit-box;
+            -webkit-box-orient: vertical;
+            -webkit-line-clamp: 2;
+            overflow: hidden;
+          }
+        }
+      }
+      .page-choose-right{
+        width: 75%;
+        position: absolute;
+        left:25%;
+        top:0;
+        bottom:0;
+        overflow: scroll;
+      }
+    }
+  }
+}

@@ -1,3 +1,7 @@
+.wrap {
+  width: 100%;
+  height: 100%;
+}
 .page-product-top {
   width: 96%;
   height: 3rem;
