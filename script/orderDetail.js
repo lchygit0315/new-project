@@ -11,4 +11,12 @@ $(function () {
             $('.order-line').animate({'left':'64%'},300);
         }
     });
+
+
+    $(".page-bottom-cart").mouseenter(function(){
+        $(".mask-cart").show()
+    }).mouseleave(function(){
+        $(".mask-cart").hide()
+    });
+
 })
