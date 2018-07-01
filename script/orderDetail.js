@@ -5,11 +5,11 @@ $(function () {
         var _index = $(this).index();
         $(".page-order-box>div").eq(_index).show().siblings().hide();
         $(this).addClass("active").siblings().removeClass("active");
-        if(_index==0){
-            $('.order-line').animate({'left':'16%'},300);
-        }else{
-            $('.order-line').animate({'left':'64%'},300);
-        }
+        // if(_index==0){
+        //     $('.order-line').animate({'left':'16%'},300);
+        // }else{
+        //     $('.order-line').animate({'left':'64%'},300);
+        // }
     });
 
 
