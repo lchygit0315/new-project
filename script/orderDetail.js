@@ -20,6 +20,14 @@ $(function () {
     }).mouseleave(function(){
         $(".mask-cart").hide()
     });
+    $(".page-shop-telphone").on("click",function () {
+        $(".mask-shop").show()
+        $(".mask-shop .cart-box").fadeIn(200)
+    })
+    $(".mask-shop-del").on("click",function () {
+        $(".mask-shop").hide()
+        $(".mask-shop .cart-box").fadeOut(200)
+    })
 })
 
 //活动滚动
