@@ -11,12 +11,29 @@ $(function () {
         //     $('.order-line').animate({'left':'64%'},300);
         // }
     });
-
+    $(".page-criticism-title ul li").on("click",function () {
+        $(this).addClass("active").siblings().removeClass("active");
+    })
 
     $(".page-bottom-cart").mouseenter(function(){
         $(".mask-cart").show()
     }).mouseleave(function(){
         $(".mask-cart").hide()
     });
-
 })
+
+//活动滚动
+function AutoScroll(obj) {
+    $(obj).find("ul:first").animate({
+            marginTop: "-1rem"
+        }, 1000,
+        function() {
+            $(this).css({
+                marginTop: "0"
+            }).find("li:first").appendTo(this);
+        }
+    );
+}
+$(document).ready(function() {
+    setInterval('AutoScroll(".page-top-active-main")', 2500)
+});

@@ -41,13 +41,66 @@
 }
 .page-order-top .page-top-right {
   width: 60%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
   position: absolute;
-  left: 40%;
-  top: 1.5rem;
+  left: 38%;
+  top: 2rem;
 }
-.page-order-top .page-top-right p {
+.page-order-top .page-top-right .page-top-title-text {
   font-size: 16px;
   color: white;
+}
+.page-order-top .page-top-right .page-top-right-bj {
+  width: 100%;
+  margin-top: 1rem;
+}
+.page-order-top .page-top-right .page-top-right-bj p {
+  display: inline-block;
+  padding: 0.1rem 0.7rem;
+  border: 0.1rem solid #FFC43D;
+  border-radius: 1.2rem;
+  color: #FFC43D;
+}
+.page-order-top .page-top-right .page-top-active {
+  width: 100%;
+  margin-top: 1rem;
+}
+.page-order-top .page-top-right .page-top-active .page-top-active-main {
+  width: 100%;
+  height: 1.8rem;
+  color: white;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.page-order-top .page-top-right .page-top-active .page-top-active-main ul {
+  width: 100%;
+  height: 100%;
+}
+.page-order-top .page-top-right .page-top-active .page-top-active-main ul li {
+  height: 100%;
+  width: 100%;
+  line-height: 1.8rem;
+  box-sizing: border-box;
+  padding-top: 0.2rem;
+  padding-bottom: 0.2rem;
+  padding-right: 1rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.page-order-top .page-top-right .page-top-active .page-top-active-main ul li span {
+  display: inline-block;
+  width: 1.8rem;
+  height: 1.8rem;
+  background: #FFC43D;
+  text-align: center;
+  line-height: 1.8rem;
+  color: white;
+  float: left;
+  margin-right: 0.5rem;
 }
 .page-order-content {
   position: absolute;
@@ -268,7 +321,6 @@
   position: absolute;
   right: -0.1rem;
   top: -0.1rem;
-  display: inline-block;
   background: red;
   width: 1.5rem;
   height: 1.5rem;
@@ -276,6 +328,7 @@
   border-radius: 50%;
   text-align: center;
   line-height: 1.5rem;
+  display: none;
 }
 .page-order-tab .page-order-box .page-order-choose .page-choose-bottom .page-bottom-txt p {
   float: left;
@@ -291,6 +344,125 @@
   line-height: 5rem;
   text-align: center;
   font-size: 18px;
+}
+.page-order-tab .page-order-criticism {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  overflow: scroll;
+}
+.page-order-tab .page-order-criticism .page-criticism-title {
+  width: 100%;
+}
+.page-order-tab .page-order-criticism .page-criticism-title ul {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 1rem 1rem;
+  display: flex;
+  display: -webkit-flex;
+  justify-content: space-between;
+}
+.page-order-tab .page-order-criticism .page-criticism-title ul li {
+  padding: 0.2rem 0.7rem;
+  background: #ccc;
+  color: white;
+  font-size: 12px;
+}
+.page-order-tab .page-order-criticism .page-criticism-title ul li span {
+  margin-left: 0.3rem;
+}
+.page-order-tab .page-order-criticism .page-criticism-title ul li.active {
+  background: #FFC43D;
+}
+.page-order-tab .page-order-criticism .page-criticism-line {
+  width: 100%;
+  height: 0.5rem;
+  background: #eee;
+}
+.page-order-tab .page-order-criticism .page-criticism-list {
+  width: 100%;
+}
+.page-order-tab .page-order-criticism .page-criticism-list ul {
+  width: 100%;
+}
+.page-order-tab .page-order-criticism .page-criticism-list ul li {
+  width: 96%;
+  margin-left: 2%;
+  overflow: hidden;
+  border-bottom: 0.1rem solid #eee;
+  box-sizing: border-box;
+  padding: 1rem 0;
+}
+.page-order-tab .page-order-criticism .page-criticism-list ul li .page-criticism-list-left {
+  width: 10%;
+  float: left;
+}
+.page-order-tab .page-order-criticism .page-criticism-list ul li .page-criticism-list-left .list-img {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+}
+.page-order-tab .page-order-criticism .page-criticism-list ul li .page-criticism-list-left .list-img img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+.page-order-tab .page-order-criticism .page-criticism-list ul li .page-criticism-list-right {
+  width: 85%;
+  float: right;
+}
+.page-order-tab .page-order-criticism .page-criticism-list ul li .page-criticism-list-right .page-criticism-right-title {
+  width: 100%;
+  font-size: 12px;
+}
+.page-order-tab .page-order-criticism .page-criticism-list ul li .page-criticism-list-right .page-criticism-right-title p:first-child {
+  float: left;
+}
+.page-order-tab .page-order-criticism .page-criticism-list ul li .page-criticism-list-right .page-criticism-right-title p:last-child {
+  float: right;
+}
+.page-order-tab .page-order-criticism .page-criticism-list ul li .page-criticism-list-right .page-criticism-right-content {
+  width: 100%;
+  overflow: hidden;
+  display: flex;
+  display: -webkit-flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-flow: row;
+}
+.page-order-tab .page-order-criticism .page-criticism-list ul li .page-criticism-list-right .page-criticism-right-content p {
+  float: left;
+  text-align: left;
+}
+.page-order-tab .page-order-criticism .page-criticism-list ul li .page-criticism-list-right .page-criticism-right-content .right-content-img {
+  float: left;
+  display: flex;
+  display: -webkit-flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-flow: row;
+}
+.page-order-tab .page-order-criticism .page-criticism-list ul li .page-criticism-list-right .page-criticism-right-content .right-content-img img {
+  width: 1.5rem;
+  height: 1.5rem;
+  margin-left: 0.3rem;
+}
+.page-order-tab .page-order-criticism .page-criticism-list ul li .page-criticism-list-right .page-right-content-text {
+  width: 100%;
+  font-size: 12px;
+  margin-top: 0.5rem;
+}
+.page-order-tab .page-order-criticism .page-criticism-list ul li .page-criticism-list-right .page-right-content-upload {
+  width: 4rem;
+  height: 4rem;
+  margin-top: 0.5rem;
+}
+.page-order-tab .page-order-criticism .page-criticism-list ul li .page-criticism-list-right .page-right-content-upload img {
+  width: 100%;
+  height: 100%;
 }
 .mask-cart {
   width: 100%;
@@ -321,7 +493,7 @@
   float: right;
   width: 1.5rem;
   height: 1.7rem;
-  margin-right: 1rem;
+  margin-right: 0.5rem;
 }
 .mask-cart .cart-box .cart-box-top .cart-box-clean img {
   width: 100%;
