@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>提交订单</title>
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/balance.css">
+</head>
+<body>
+<div class="wrap">
+    <div class="page-balance-top">
+        <div class="page-balace-top-content">
+            <div class="page-balance-top-list">
+                <ul>
+                    <li class="active">外卖配送</li>
+                    <li>到店自取</li>
+                </ul>
+            </div>
+            <div class="page-balance-tab">
+                <div class="page-balance-address">
+                    <button class="add-btn" >+ 选择地址</button>
+                    <div class="page-address-current" style="display: none"><img src="../images/location.png">南山区西丽阶段珠光北路众冠红花岭工业区</div>
+                    <div class="page-address-time">
+                        由商家自送，送达时间以当前具体情况为准。
+                    </div>
+                </div>
+                <div class="page-balace-mine">
+                    434
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+</div>
+
+</body>
+<script src="../script/jquery-3.2.1.js"></script>
+<script src="../script/reset.js"></script>
+<script>
+    $(function () {
+        $(".page-balance-tab>div").hide().first().show();
+        $(".page-balance-top-list ul li").on("click",function () {
+            var _index = $(this).index();
+            $(".page-balance-tab>div").eq(_index).show().siblings().hide();
+            $(this).addClass("active").siblings().removeClass("active")
+        })
+
+    })
+</script>
+</html>
